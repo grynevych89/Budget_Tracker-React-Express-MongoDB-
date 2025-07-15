@@ -1,0 +1,29 @@
+# Нормализация концов строк (CRLF / LF)
+* text=auto
+
+# Указываем, что .env-файлы — бинарные, чтобы Git не пытался их нормализовать
+*.env binary
+
+# Для файлов конфигурации, например, json, yaml, ts, js — нормализуем текст
+*.json text
+*.yaml text
+*.yml text
+*.ts text
+*.js text
+
+# Для изображений — бинарные файлы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+
+# Локальные настройки для IDE
+.vscode/* text eol=crlf
+
+# Исключаем большие бинарные файлы из слияния (можно по необходимости)
+*.lock binary merge=union
+
+# Устанавливаем линейку end-of-line для Windows и Unix (LF предпочтительно)
+*.sh text eol=lf
+*.bat text eol=crlf

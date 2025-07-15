@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+*.log
+.vscode/
+
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+
+/client/node_modules/
+/client/dist/
+/client/.env
+/client/build/
