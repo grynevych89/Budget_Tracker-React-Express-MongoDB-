@@ -13,13 +13,15 @@ It supports user authentication with JWT, CRUD operations for transactions, filt
 
 ---
 
-## Features
+## ✨ Features
 
-- User registration and login with JWT authentication  
-- Add, edit, delete income and expense transactions  
-- Filter and sort transactions by date or amount  
-- View analytics with balance over time  
-- Admin panel to manage users and transactions  
+- 🔐 User registration and login with JWT authentication  
+- ➕➖ Add, edit, delete income and expense transactions  
+- 🔍 Filter and sort transactions by date or amount  
+- 📊 View analytics with balance over time  
+- 🛠️ Admin panel to manage users and transactions  
+- 🌐 Multilanguage support (e.g., English / Ukrainian)  
+- 🌓 Light/Dark theme toggle  
 
 ---
 
